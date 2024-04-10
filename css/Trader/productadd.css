@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+    font-family: sans-serif;
+}
+
+.ptitle h2{
+    width:68%;
+    margin:20px;
+    /* border:1px solid black; */
+    padding:10px;
+}
+
+.pdetails{
+    display:flex;
+    flex-wrap:nowrap;
+    height:auto;
+    margin:20px;
+}
+
+.pdetails input{
+    width:100%;
+    height:30px;
+}
+
+.align{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap:25px;
+        /* justify-content: center; */
+}
+
+.align >*{
+    flex-basis: 100%;
+}
+
+#leftalign, #rightalign{
+    display: flex;
+    flex-wrap:wrap;
+    height: 100%;
+    padding:20px;
+    color:#000;
+    background-color: lightgray;
+}
+
+#rightAlign>*{
+    flex-basis:100%;
+}
+
+#leftAlign>*{
+    flex-basis:100%;
+}
+
+#rightAlign .horiz input, label{
+    flex-wrap: nowrap;
+}
+
+#leftAlign div, #rightAlign div{
+   flex-basis:30%;
+   padding-top:20px;
+   margin-left:30%;
+   text-align: center;
+}
+
+.pdetails textarea{
+    width:100%;
+    height:30%;
+    margin-top:20px;
+}
+
+.pdetails select{
+    width:100%;
+    height:7%;
+}
+
+.pdetails .btn input{
+    width:30%;
+    display:inline;
+    height:40px;
+    text-align: center;
+    margin:0 0 20px 120px;
+}
+
+form{
+    display: flex;
+    margin-bottom:130px;
+    flex-wrap: nowrap;
+}
+ 
+form>*:nth-child(1){
+    flex: 0 0 70%;
+}
+
+form >*:nth-child(2){
+    flex: 0 0 30%;
+    margin-top: 45px;
+} 
+
+
+.horiz{
+    display:inline;
+    
+}
+
+#profilePhoto #photodisplay{
+     width:170px;
+     height:170px;
+     border-radius:0%;
+}
+
+#profilephoto img{
+    margin:30px 0 0px 145px;
+}
+
+#profilephoto label{
+    margin-left: 27%;
+}
+
+@media(max-width:886px){
+   form>*:nth-child(1){
+    
+   }
+
+   form>*:nth-child(2){
+
+   }
+}

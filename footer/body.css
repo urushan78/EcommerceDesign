@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap');
+.container-area{
+    
+    width: 50%;
+    padding-top: 8%;
+}
+.container-area .title{
+    text-align: left;
+    margin: 0;
+    padding:0;
+    padding-left: 4.5%;
+    font-size: 5em;
+    font-family: 'Lato', sans-serif;
+    color:#384239;
+    
+}
+.container-area .second{
+    margin: 0;
+    padding: 0;
+    padding-left: 4.5%;
+}

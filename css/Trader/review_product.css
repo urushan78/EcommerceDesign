@@ -1,0 +1,240 @@
+body{
+    overflow-x: hidden;
+}
+
+/*-----Image Part------*/
+.all .container .table {
+    padding-top: 3em;
+    
+}
+
+.all .container .table .row .col-6:first-child .img-box{
+    
+    border:2px solid rgb(241, 241, 241);
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+.all .container .table .row .col-6:first-child .img-box img{
+  
+    width: 90%;
+    
+}
+
+.all .container .table .row .col-6:nth-child(2){
+    padding: 25px 0 0 85px;
+}
+
+.all .container .table .row .col-6:nth-child(2) .header h2
+{
+    font-size: 28px;
+    line-height: 40px;
+}
+
+.all .container .table .row .col-6:nth-child(2) .header .rate p{
+    font-size: 20px;
+    line-height: 20px;
+    display: inline-block;
+}
+.all .container .table .row .col-6:nth-child(2) .header .rate .stars{
+    font-size: 15px;
+    line-height: 25px;
+    display: inline-block;
+    color: gold;
+}
+.all .container .table .row .col-6:nth-child(2) .header h5{
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.all .container .table .row .col-6:nth-child(2) .header h3{
+  font-size: 25px;
+  line-height: 35px;
+}
+.all .container .table .row .col-6:nth-child(2) .add #reference{
+    font-size: 25px;
+    line-height: 35px;
+}
+.all .container .table .row .col-6:nth-child(2) .add form{
+    padding-left: 1em;
+    display: inline-block;
+}
+.all .container .table .row .col-6:nth-child(2) .add button{
+   
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 2px 10px;
+    background-color: white;
+    transition: 0.3s ease;
+}
+
+.all .container .table .row .col-6:nth-child(2) .add button:hover{
+    background-color: black;
+    color: white;
+}
+.all .container .table .row .col-6:nth-child(2) .add form .num{
+    font-size: 20px;
+    line-height: 25px;
+    width: 40px;
+    padding-left: 13px;
+}
+
+.all .container .table .row .col-6:nth-child(2) .buy form button{
+
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 2px 10px;
+    background-color: white;
+    transition: 0.3s ease;
+    width: 120px;
+    padding: 5px 0;
+}
+.all .container .table .row .col-6:nth-child(2) .buy form .button4{
+    margin-left: 55px ;
+}
+
+.all .container .table .row .col-6:nth-child(2) .buy form button:hover{
+    background-color: black;
+    color: white;
+}
+
+/*-----Product Details Part------*/
+.all .container .product-details
+{
+    margin-top: 2em;
+    padding-top: 2em;
+    padding-left: 1em;
+    border-top:1px solid rgb(201, 200, 200);
+}
+
+.all .container .product-details h4
+{
+    font-size: 30px;
+    line-height:40px;
+}
+
+.all .container .product-details p
+{
+    text-align: justify;
+    padding-left: 1em;
+    font-size: 16px;
+    line-height:21px;
+    max-width: 900px;
+}
+
+/*-----Comment Part------*/
+.all .container .comment
+{
+    margin-top: 2em;
+    padding-top: 2em;
+    padding-left: 1em;
+    border-top:1px solid rgb(201, 200, 200);
+}
+
+
+/*-----Comment Part------*/
+.all .container .rating
+{
+    margin-top: 2em;
+    padding-top: 2em;
+    padding-left: 1em;
+    border-top:1px solid rgb(201, 200, 200);
+
+    text-align: center;
+}
+
+/*-----Similar Products Part------*/
+.all .container .similar-products
+{
+    margin-top: 2em;
+    padding-top: 4em;
+    padding-left: 1em;
+    border-top:1px solid rgb(201, 200, 200);
+}
+
+
+.product{
+    cursor: pointer;
+    margin: 0;
+}
+.product img{
+    transition: 0.3s all; 
+    width: 100%;
+}
+
+.product:hover img{
+    opacity: 0.7;
+    
+}
+
+.product .buy-btn{
+    background-color:#222222;
+    color: rgb(247, 245, 242);
+    transform: translateX(20px);
+    opacity: 0;
+    transition: 0.5s all;
+    padding: 5px 0px;
+    text-decoration: none;
+    margin:10px 0;
+    display: block;
+}
+
+.product .buy-btn:hover{
+    background-color:#4d4c4c; ;
+}
+
+.product:hover .buy-btn{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.img-box{
+    width: 215px;
+    height: 215px;
+    margin: 0 auto;
+}
+
+.product .p-name{
+    font-size: 1em;
+    padding: 5px 0;
+    margin: 0;
+    height: 40px;
+}
+
+.product .price-name{
+    font-size: 1.3em;
+    padding: 5px 0;
+    margin: 0;
+}
+
+.product .star{
+    margin: 5px 0;
+    padding: 0;
+    color: gold;
+}
+
+@media (max-width:768px)
+{
+  .all .container .table .row .col-6:nth-child(2) .header h2
+  {
+    font-size: 20px;
+    line-height: 31px;
+  }
+
+  .all .container .table .row .col-6:nth-child(2) .header h5
+  {
+    font-size: 17px;
+    line-height: 24px;
+  }
+    
+  .all .container .table .row .col-6:nth-child(2) .header h3
+  {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .all .container .product-details h4
+  {
+      font-size: 20px;
+      line-height:30px;
+  }
+}

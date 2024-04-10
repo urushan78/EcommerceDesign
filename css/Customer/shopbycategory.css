@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Staatliches&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+#sortbyCat .category{
+    display:flex;
+    float: left;
+    width:20%;
+    padding:5px; 
+    cursor: pointer;
+    transition: 0.3s ease;
+    padding-bottom:63px;
+}
+
+#sortbyCat .category a{
+    text-decoration: none;
+}
+
+#sortbyCat .category:hover{
+    transform: scale(1.02);
+}
+
+#sortbyCat .category:hover p{
+    font-weight: 600;
+}
+
+#sortbyCat .category img{
+    border-radius:18px 18px 0px 0px;
+    padding-left:5px;
+} 
+
+#sortbyCat .category p{
+    background-color: #222222;
+    text-align: center;
+    color:white;
+    font-size:1.2em;
+    padding-top:10%;
+    padding-bottom:10%; 
+    border-top: none;
+    border-radius: 0px 0px 20px 20px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 20px;
+    font-weight: 500;
+    transition: 0.3s ease;
+    margin-left:5px;
+}
+
+@media(max-width: 866px){
+    #sortbyCat .category{
+        display:flex;
+        width:250px;
+        margin-bottom:150px;
+        cursor: pointer;
+        transition: 0.3s ease;
+        height:100px;
+        float:none;
+        margin-left:auto;
+        margin-right:auto; 
+    }
+    
+    .category img{
+        height:150px;
+    }
+
+    #sortbyCat h2{
+        font-size:1.2em;
+    }
+}
+
+

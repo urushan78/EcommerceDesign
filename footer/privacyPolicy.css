@@ -1,0 +1,13 @@
+#privacy{
+    margin-top: 100px;
+    margin-left: 30px;
+}
+#privacy .privacy-policy-header{
+    margin-bottom: 40px;
+    color: #9481BC;
+    text-align: center;
+}
+#privacy .privacy-policy .description {
+    margin-left: 20px;
+    margin-bottom: 50px;
+}

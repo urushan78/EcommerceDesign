@@ -1,0 +1,143 @@
+body{
+  overflow-x: hidden;
+}
+#nav{
+  padding-bottom: 2px;
+}
+#nav .navbar{
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+  -webkit-box-shadow: 0 4px 6px -6px #222;
+  -moz-box-shadow: 0 4px 6px -6px #222;
+  box-shadow: 0 4px 6px -6px #222;
+}
+
+#nav .navbar{
+  padding-left: 43px;
+  padding-right: 35px;
+}
+ 
+#nav .navbar-brand
+{
+  width: 170px;
+  height: 60px;
+}
+
+#nav .form-inline
+{
+  position: relative;
+  margin: 0 auto;
+  width:50%;
+}
+
+.form-inline .fa{
+  position: absolute;
+  right:25px;
+}
+
+#nav .navbar-nav li
+{
+  font-weight: bold;
+  margin: 0 5px;
+  font-size: 0.9em;
+}
+
+.managedets{
+  display:none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.nav-item a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+.nav-item:hover .managedets{
+  display:block;
+  color:black;
+}
+
+#nav .form-inline input{
+  width: 100%;
+  position: relative;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 4px 6px -6px #222;
+  -moz-box-shadow: 0 4px 6px -6px #222;
+  box-shadow: 0 4px 6px -6px #222;
+}
+#nav .form-inline i{
+  position: absolute;
+}
+
+#nav .navbar .navbar-toggler .navbar-toggler-icon{
+  color: white;
+}
+#banner{
+  margin-top: 75px;
+}
+#banner .container-fluid{
+  background-color: #3F3F3F;
+}
+
+#banner .container-fluid .container a{
+    margin: auto 20px;
+    font-size: 1em;
+    line-height: 50px;
+    color: rgb(179, 178, 178);
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s ease;
+    
+}
+#banner .container-fluid .container a:hover{
+    color: white;
+}
+
+#banner{
+  margin-top: 75px;
+}
+#banner .container-fluid{
+  height:50px;
+  background-color: #3F3F3F;
+}
+#banner .container-fluid ul{
+  list-style: none;
+}
+#banner .container li{
+  padding: 0 15px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #F1F1F1;
+  height: 55px;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+#banner .container-fluid ul li:hover{
+  background-color: #B08C5C;
+  color: black;
+  
+}
+
+@media(max-width: 900px)
+{
+  #banner .container-fluid{
+    display:none;
+  }
+
+}
+
+@media (max-width:991px){
+  #nav .form-inline
+  {
+    margin: 0 auto;
+    width:100%;
+  }
+}

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;300;400;500;700&display=swap');
+#mtrader
+{
+    margin-top: 76px; /*-------Don't decrease the margin-top or else it will go behind the nav section, you can ofcourse increase it----------*/
+    margin-left: 250px;
+    padding: 0 12px;
+}
+#mtrader .first_section,#mtrader .second_section
+{
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding-top: 1em;
+}
+/*---------------When the width of the screen is 600px the margin-left property should reduce to 200px------------------*/
+@media(max-width:600px)
+{
+    #mtrader{
+        margin-left: 200px;
+    }
+    
+    
+}
+
+/*---------------When the width of the screen is 600px the margin-left property should reduce to 150px------------------*/
+@media(max-width:500px)
+{
+    #mtrader{
+        margin-left: 150px;
+    }
+}

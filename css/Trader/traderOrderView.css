@@ -1,0 +1,142 @@
+body{
+    margin-top:20px;
+    color: #484b51;
+}
+ /*--------------OrderDetails Div-------------------*/
+
+ #orderView
+ {
+     margin-top: 76px; /*-------Don't decrease the margin-top or else it will go behind the nav section, you can ofcourse increase it----------*/
+     margin-left: 250px;
+ }
+ 
+ #orderView .text-secondary-d1 {
+    color: #728299!important;
+}
+ #orderView .page-header {
+    margin: 0 0 1rem;
+    padding-bottom: 1rem;
+    padding-top: .5rem;
+    border-bottom: 1px dotted #e2e2e2;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+}
+ #orderView .page-title {
+    padding: 0;
+    margin: 0;
+    font-size: 1.75rem;
+    font-weight: 300;
+}
+ #orderView .brc-default-l1 {
+    border-color: #dce9f0!important;
+}
+
+ #orderView .ml-n1, .mx-n1 {
+    margin-left: -.25rem!important;
+}
+ #orderView .mr-n1, .mx-n1 {
+    margin-right: -.25rem!important;
+}
+ #orderView .mb-4, .my-4 {
+    margin-bottom: 1.5rem!important;
+}
+
+ #orderView hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+ #orderView .text-grey-m2 {
+    color: #888a8d!important;
+}
+
+ #orderView .text-success-m2 {
+    color: #86bd68!important;
+}
+
+ #orderView .font-bolder, .text-600 {
+    font-weight: 600!important;
+}
+
+ #orderView .text-110 {
+    font-size: 110%!important;
+}
+ #orderView .text-blue {
+    color: #478fcc!important;
+}
+ #orderView .pb-25, .py-25 {
+    padding-bottom: .75rem!important;
+}
+
+ #orderView .pt-25, .py-25 {
+    padding-top: .75rem!important;
+}
+ #orderView .bgc-default-tp1 {
+    background-color: rgba(121,169,197,.92)!important;
+}
+ #orderView .bgc-default-l4, .bgc-h-default-l4:hover {
+    background-color: #f3f8fa!important;
+}
+ #orderView .page-header .page-tools {
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+}
+
+ #orderView .btn-light {
+    color: #757984;
+    background-color: #f5f6f9;
+    border-color: #dddfe4;
+}
+ #orderView .w-2 {
+    width: 1rem;
+}
+
+ #orderView .text-120 {
+    font-size: 120%!important;
+}
+ #orderView .text-primary-m1 {
+    color: #4087d4!important;
+}
+
+ #orderView .text-danger-m1 {
+    color: #dd4949!important;
+}
+ #orderView .text-blue-m2 {
+    color: #68a3d5!important;
+}
+ #orderView .text-150 {
+    font-size: 150%!important;
+}
+ #orderView .text-60 {
+    font-size: 60%!important;
+}
+ #orderView .text-grey-m1 {
+    color: #7b7d81!important;
+}
+ #orderView .align-bottom {
+    vertical-align: bottom!important;
+}
+
+/*---------------When the width of the screen is 600px the margin-left property should reduce to 200px------------------*/
+@media(max-width:600px)
+{
+    #orderView{
+        margin-left: 200px;
+    }
+    
+    
+}
+
+/*---------------When the width of the screen is 600px the margin-left property should reduce to 150px------------------*/
+@media(max-width:500px)
+{
+    #orderView{
+        margin-left: 150px;
+    }
+}

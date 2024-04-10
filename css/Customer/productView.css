@@ -1,0 +1,432 @@
+
+body{
+    overflow-x: hidden;
+}
+
+/*-----Image Part------*/
+.all .container .table {
+    padding-top: 3em;
+    
+}
+
+.all .container .table .row .col-6:first-child .img-box{
+    
+    border:2px solid rgb(241, 241, 241);
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+.all .container .table .row .col-6:first-child .img-box img{
+  
+    width: 90%;
+    
+}
+
+.all .container .table .row .col-6:nth-child(2){
+    padding: 25px 0 0 85px;
+}
+
+.all .container .table .row .col-6:nth-child(2) .header h2
+{
+    
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.all .container .table .row .col-6:nth-child(2) .header .rate p{
+    font-size: 20px;
+    line-height: 20px;
+    display: inline-block;
+}
+.all .container .table .row .col-6:nth-child(2) .header .rate .stars{
+    font-size: 15px;
+    line-height: 25px;
+    display: inline-block;
+    color: gold;
+}
+.all .container .table .row .col-6:nth-child(2) .header h5{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.all .container .table .row .col-6:nth-child(2) .header h3{
+    font-size: 20px;
+    line-height: 35px;
+}
+.all .container .table .row .col-6:nth-child(2) .add #reference{
+    font-size: 20px;
+    line-height: 20px;
+}
+.all .container .table .row .col-6:nth-child(2) .add form{
+    padding-left: 1em;
+    display: inline-block;
+}
+.all .container .table .row .col-6:nth-child(2) .add button{
+   
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 2px 10px;
+    background-color: white;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.all .container .table .row .col-6:nth-child(2) .add button:hover{
+    background-color: black;
+    color: white;
+}
+.all .container .table .row .col-6:nth-child(2) .add form .num{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    width: 40px;
+    padding-left: 13px;
+}
+
+.all .container .table .row .col-6:nth-child(2) .buy form button{
+
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 2px 10px;
+    background-color: white;
+    font-weight: bold;
+    transition: 0.3s ease;
+    width: 120px;
+    padding: 5px 0;
+}
+.all .container .table .row .col-6:nth-child(2) .buy form .button4{
+    margin-left: 55px ;
+}
+
+.all .container .table .row .col-6:nth-child(2) .buy form button:hover{
+    background-color: black;
+    color: white;
+}
+
+/*-----Product Details Part------*/
+.all .container .product-details
+{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 2em;
+    padding-top: 2em;
+    padding-left: 1em;
+    border-top:1px solid rgb(201, 200, 200);
+}
+
+.all .container .product-details h4
+{
+    font-size: 30px;
+    line-height:40px;
+}
+
+.all .container .product-details p
+{
+    text-align: justify;
+    font-size: 16px;
+    line-height:21px;
+    width:100%;
+}
+
+/*-----Comment Part------*/
+.all .container .comment
+{
+    width:100%;
+    margin-top: 2em;
+    border-top:1px solid rgb(201, 200, 200);
+}
+
+.comment-area .fas{
+  float:right;
+}
+
+
+/*-----Comment Part------*/
+.all .container .rating
+{
+    margin-top: 2em;
+    padding-top: 2em;
+    padding-left: 1em;
+    border-top:1px solid rgb(201, 200, 200);
+    text-align: center;
+}
+
+/*-----Similar Products Part------*/
+.all .container .similar-products
+{
+    margin-top: 2em;
+    padding-top: 4em;
+    padding-left: 1em;
+    border-top:1px solid rgb(201, 200, 200);
+}
+
+.product{
+    cursor: pointer;
+    margin: 0;
+}
+.product img{
+    transition: 0.3s all; 
+    width: 100%;
+}
+
+.product:hover img{
+    opacity: 0.7;
+}
+
+.fa-align a{
+  color:black;
+  float:right;
+}
+
+.product .buy-btn{
+    background-color:#222222;
+    color: rgb(247, 245, 242);
+    transform: translateX(20px);
+    opacity: 0;
+    transition: 0.5s all;
+    padding: 5px 0px;
+    text-decoration: none;
+    margin:10px 0;
+    display: block;
+}
+
+.product .buy-btn:hover{
+    background-color:#4d4c4c; ;
+}
+
+.product:hover .buy-btn{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.img-box{
+    width: 215px;
+    height: 215px;
+    margin: 0 auto;
+}
+
+.product .p-name{
+    font-size: 1em;
+    padding: 5px 0;
+    margin: 0;
+    height: 40px;
+}
+
+.product .price-name{
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 5px 0;
+    margin: 0;
+}
+
+.product .star{
+    margin: 5px 0;
+    padding: 0;
+    color: gold;
+}
+
+.star .checked{
+  color:red;
+}
+
+/*-----Nav Section-----*/
+#nav{
+  padding-bottom: 2px;
+}
+#nav .navbar{
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+  -webkit-box-shadow: 0 4px 6px -6px #222;
+  -moz-box-shadow: 0 4px 6px -6px #222;
+  box-shadow: 0 4px 6px -6px #222;
+}
+
+#nav .navbar{
+  padding-left: 43px;
+  padding-right: 35px;
+}
+ 
+#nav .navbar-brand
+{
+  width: 170px;
+  height: 60px;
+}
+
+#nav .form-inline
+{
+  margin-left: 10%;
+  width: 55%;
+}
+
+#nav .navbar-nav li
+{
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+#nav .form-inline input{
+  width: 100%;
+  position: relative;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 4px 6px -6px #222;
+  -moz-box-shadow: 0 4px 6px -6px #222;
+  box-shadow: 0 4px 6px -6px #222;
+}
+#nav .form-inline i{
+  position: absolute;
+  /* left: 66%; */
+}
+#nav .navbar .navbar-toggler .navbar-toggler-icon{
+  color: white;
+}
+#banner{
+  margin-top: 75px;
+}
+#banner .container-fluid{
+  background-color: #3F3F3F;
+}
+
+#banner .container-fluid .container a{
+    font-size: 20px;
+    line-height: 50px;
+    color: rgb(179, 178, 178);
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s ease;
+    
+}
+#banner .container-fluid .container a:hover{
+    color: white;
+}
+@media(max-width: 991px)
+{
+  #nav .form-inline
+  {
+    margin-left: 20%;
+    width: 80%;
+  }
+  #nav .form-inline input{
+    width: 80%;
+  }
+  #nav .form-inline i{
+    position: absolute;
+    left: 78%;
+  }
+}
+
+
+@media(max-width: 1342px)
+{
+  #nav .form-inline
+  {
+    margin-left: 16%;
+  }
+  #nav .form-inline i{
+    left: 63%;
+  }
+}
+
+@media(max-width: 1193px)
+{
+  #nav .form-inline
+  {
+    margin-left: 13%;
+  }
+  #nav .form-inline i{
+    left: 61%;
+  }
+}
+@media(max-width: 1105px)
+{
+  #nav .form-inline
+  {
+    margin-left: 10%;
+  }
+  #nav .form-inline i{
+    left: 58%;
+  }
+}
+@media(max-width: 1031px)
+{
+  #nav .form-inline
+  {
+    margin-left: 7%;
+  }
+  #nav .form-inline i{
+    left: 56%;
+  }
+}
+
+@media(max-width: 991px)
+{
+  #nav .form-inline
+  {
+    margin: 0;
+    width: 100%;
+    background-color: thistle;
+  }
+  #nav .form-inline input{
+    width: 80%;
+    position: relative;
+  }
+  #nav .form-inline i{
+    position: absolute;
+    left: 66%;
+  }
+}
+
+/*------Footer-----*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Staatliches&display=swap');
+footer{
+	background-color: #A78454;
+	color: black;
+	padding: 15px 0;
+}
+
+footer .container .col-12{
+	padding-left: 10%;
+}
+footer .container .col-12 ul{
+	text-align: justify;
+	list-style: none;
+}
+footer .container .col-12 ul li:first-child{
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+footer .container .col-12 ul li a{
+	text-decoration: none;
+	color: black;
+}
+footer .container .col-12 ul li{
+	font-family: 'Roboto', sans-serif;
+	transition: 0.5s ease;
+	cursor: pointer;
+	padding-bottom: 5px;
+}
+footer .container .col-12 ul li:hover {
+	list-style-type: disc;
+	margin-left: 18px;
+
+}
+footer .container .col-12 ul li:first-child:hover{
+	list-style-type: none;
+	margin-left: 0;
+}
+.down{
+	background-color: #222222;
+	padding:0.5em 0;
+	text-align: center;
+}
+.down a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+.down a:hover{
+	text-decoration: underline;
+	transition: 0.5s;
+}

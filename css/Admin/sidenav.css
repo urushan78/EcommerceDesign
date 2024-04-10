@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;300;400;500;700&display=swap');
+
+.sidebar{
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    background: rgba(31, 30, 30, 0.918);
+    transition: all 0.5s ease;
+    z-index: 99999;
+}
+.sidebar header{
+    color: white;
+    font-size: 35px;
+    line-height: 75px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    padding-left: 40px;
+    background-color: #000;
+}
+
+.sidebar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.sidebar ul li .option{
+    display: block;
+    font-size: 20px;
+    line-height:55px;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgb(0, 0, 0);
+    transition: 0.4s;
+    text-decoration: none;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+}
+.sidebar ul li .option i{
+    margin-right: 5px;
+}
+.sidebar ul li:hover .option{
+    padding-left: 60px;
+    background-color: rgba(10, 10, 10, 0.445);
+}
+.sidebar ul li .active{
+    padding-left: 60px;
+    background-color: rgba(10, 10, 10, 0.445);
+}
+
+
+.canvas .vertical-nav {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top:0;
+    height: 76px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.canvas .vertical-nav .box-logo{
+    width: 210px;
+    margin-top: 16px;
+    margin-left: 284px;
+    
+}
+.canvas .vertical-nav .box-account{
+    display: flex;
+    padding-right: 2em;
+    
+}
+.canvas .vertical-nav .box-account .box-account-image
+{
+    width: 40px;
+    margin-top: 20px;
+    
+}
+
+.canvas .vertical-nav .box-account .box-account-image img{
+    border-radius: 50%;
+
+}
+.canvas .vertical-nav .box-account .box-account-details{
+    margin-top: 16px;
+}
+.canvas .vertical-nav .box-account .box-account-details ul{
+    list-style: none;
+    padding-left: 15px;
+}
+.canvas .vertical-nav .box-account .box-account-details ul li{
+    display: block;
+    color: white;
+}
+
+.canvas .vertical-nav .box-account .box-account-details ul li a {
+    text-decoration: none;
+    color: rgb(184, 183, 183);
+    transition: 0.3s ease;
+}
+.canvas .vertical-nav .box-account .box-account-details ul li a:hover{
+    color: white;
+}
+
+
+
+/*--------------Hidden Div-------------------*/
+.disapear{
+    display: none;
+}
+.sidebar ul li .box-account{
+    padding-bottom:15px;
+}
+.sidebar ul li .box-account .box-account-image
+{
+    width: 80px;
+    margin: 0 auto;
+    padding-top:14px;
+    padding-bottom:15px;
+}
+
+.sidebar ul li .box-account .box-account-image img
+{
+    border-radius: 50%;
+}
+
+
+.sidebar ul li .box-account .box-account-details .details{
+    max-width: 220px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sidebar ul li .box-account .box-account-details .details p{
+    color: white;
+    margin: 0;
+}
+
+.sidebar ul li .box-account .box-account-details .details p a{
+    color: rgb(184, 183, 183);
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.sidebar ul li .box-account .box-account-details .details p a:hover{
+    color: white;
+}
+
+
+/*--------------Initial Div-------------------*/
+.initial{
+    margin-top: 76px;
+    margin-left: 250px;
+    padding-top: 40px;
+    display: flex;
+}
+.initial .inherit {
+    flex:1;
+}
+
+.initial .inherit .hold{
+    background-color: #313030;
+    width: 90%;
+    margin: 0 auto;
+    padding:1em 0;
+    -webkit-box-shadow: 2px 4px 12px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 4px 12px 0px rgba(0,0,0,0.75);
+box-shadow: 2px 4px 12px 0px rgba(0,0,0,0.75);
+}
+.initial .inherit .hold .head,
+.initial .inherit .hold .price
+{
+    text-align: center;
+}
+
+.initial .inherit .hold .head p,
+.initial .inherit .hold .price p{
+    font-size: 35px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+/*--------------Initial-2 Div-------------------*/
+.initial-2{
+    display: flex;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+
+.initial-2 .kid-div
+{
+    flex: 1;
+}
+
+.initial-2 .kid-div-2
+{
+    flex: 2;
+}
+.initial-2 .hold-2{
+    background-color: #313030;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    -webkit-box-shadow: 2px 4px 12px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 4px 12px 0px rgba(0,0,0,0.75);
+box-shadow: 2px 4px 12px 0px rgba(0,0,0,0.75);
+}
+
+.initial-2 .hold-2 .heads
+{
+    font-size: 35px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 700;
+    padding-left: 22px;
+    padding-top: 22px;
+    color: #fff;
+}
+.initial-2 .hold-2 .list-out
+{
+    font-size: 25px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 500;
+    padding-left: 47px;
+    color: white;
+}
+.initial-2 .hold-2 .list-out table tr{
+    height: 50px;
+    
+}
+.initial-2 .hold-2 .list-out table tr td:first-child{
+    width: 350px;
+}
+.initial-2 .hold-2 .list-out table tr td:last-child{
+    width: 100px;
+}
+
+.initial-2 .hold-2 .list-out{
+    overflow:hidden;
+
+}
+
+/*--------------Initial-3 Div-------------------*/
+.initial-3{
+    margin-left: 250px;
+    margin-top: 30px;
+}
+.initial-3 .child-div .hold-3{
+    width: 90%;
+    margin:0 auto;
+    background-color: #313030;
+    padding-bottom: 2em;
+    -webkit-box-shadow: 2px 4px 12px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 4px 12px 0px rgba(0,0,0,0.75);
+box-shadow: 2px 4px 12px 0px rgba(0,0,0,0.75);
+}
+.initial-3 .child-div .hold-3 .headers{
+    font-size: 35px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 700;
+    padding-left: 22px;
+    padding-top: 22px;
+    color: #fff;
+}
+.initial-3 .child-div .hold-3 .display{
+    width: 95%;
+    margin:0 auto;
+    display: flex;
+}
+
+.initial-3 .child-div .hold-3 .display .feedback{
+    flex: 1;
+    
+}
+.initial-3 .child-div .hold-3 .display .feedback .smaller{
+    width: 95%;
+    margin:0 auto; 
+    border:1px solid white;
+    padding:1em 1em;
+}
+.initial-3 .child-div .hold-3 .display .feedback .feedback-img{
+    width: 40px;
+    display: inline-block;
+}
+.initial-3 .child-div .hold-3 .display .feedback .feedback-img img{
+    border-radius: 50%;
+}
+.initial-3 .child-div .hold-3 .display .feedback .feedback-name
+{
+    display: inline-block;
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding-left: 7px;
+}
+
+.initial-3 .child-div .hold-3 .display .feedback .feedback-par
+{
+    margin-left: 32px;
+    max-width: 280px;
+    color: white;
+    
+}
+.initial-3 .child-div .hold-3 .display .feedback .feedback-par p{
+    height: 114px;
+    overflow-y:hidden;
+}
+
+
+
+
+footer{
+    margin-left: 250px;
+    margin-top: 12px;
+    background-color:#000;
+    text-align: center;
+    padding: 0.7em 0;
+}
+footer a{
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+
+
+@media(max-width:1200px)
+{
+    .initial-2 .hold-2 .list-out
+    {
+        font-size: 15px;
+        padding-left: 22px;
+    }
+    
+}
+@media(max-width:1052px)
+{
+    .initial-3 .child-div .hold-3 .display .feedback .feedback-name,
+    .initial-3 .child-div .hold-3 .display .feedback .feedback-par p{
+        font-size: 12px;
+    }
+}
+
+@media(max-width:868px)
+{
+    .disapear
+    {
+        display: block;
+    }
+    .canvas .vertical-nav 
+    {
+        display: block;
+        
+    }
+    .canvas .vertical-nav .appear
+    {
+        display: none;
+    }
+    .initial
+    {
+        margin-top: 40px;
+        flex-direction: column;
+    }
+    .initial-2{
+        margin-top: 20px;
+        flex-direction: column;
+    }
+    .initial-3 .child-div .hold-3 .display{
+        flex-direction: column;
+    }
+    .initial-3 .child-div .hold-3 .display .feedback .smaller{
+        margin-top: 1em;
+    }
+    .initial .inherit .hold{
+        
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    
+    .initial-2 .hold-2
+    {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .initial-2 .hold-2 .list-out
+    {
+        font-size: 25px;
+        padding-left: 47px;
+    }
+    .initial-2 .hold-2 .list-out table tr td:first-child{
+        width: 550px;
+    }
+
+    .initial-3 .child-div .hold-3 .display .feedback .feedback-name,
+    .initial-3 .child-div .hold-3 .display .feedback .feedback-par p{
+        font-size: 18px;
+    }
+    .initial-3 .child-div .hold-3 .display .feedback .smaller .sm{
+        
+        text-align: center;
+    }
+    .initial-3 .child-div .hold-3 .display .feedback .smaller .feedback-par{
+        max-width:98% ;
+        margin: 0 auto;
+    }
+}
+
+/*---------------margin-left:200px------------------*/
+@media(max-width:600px)
+{
+    .sidebar{
+        width: 200px;
+    }
+    .canvas .vertical-nav .box-logo{
+        
+        margin-left: 234px;
+    }
+    .initial,.initial-2,.initial-3,footer {
+        margin-left: 200px;
+    }
+    
+    .initial .inherit .hold .head p,
+    .initial .inherit .hold .price p,
+    .initial-2 .hold-2 .heads
+    {
+        font-size: 30px;
+    }
+    .initial-2 .hold-2 .list-out
+    {
+        font-size: 20px;
+    }
+    
+}
+
+/*---------------margin-left:150px------------------*/
+@media(max-width:500px)
+{
+    .sidebar{
+        width: 150px;
+    }
+    .canvas .vertical-nav .box-logo{
+        width: 160px;
+        margin-left: 168px;
+    }
+    .initial,.initial-2,.initial-3,footer{
+        margin-left: 150px;
+    }
+    
+    .sidebar ul li .option{
+        font-size: 18px;
+        padding-left: 10px;
+        transition: 0.3s ease;
+    }
+    .sidebar ul li:hover .option{
+        padding-left: 12px;
+    }
+    
+    .sidebar ul li .box-account .box-account-image
+    {
+        width: 40px;
+    }
+    .initial-2 .hold-2 .list-out
+    {
+        font-size: 18px;
+        padding-left: 30px;
+    }
+    .initial .inherit .hold .head p,
+    .initial .inherit .hold .price p,
+    .initial-2 .hold-2 .heads
+    {
+        font-size: 25px;
+    }
+    .initial-3 .child-div .hold-3 .display .feedback .feedback-name,
+    .initial-3 .child-div .hold-3 .display .feedback .feedback-par p{
+        font-size: 12px;
+    }
+    
+}

@@ -1,0 +1,31 @@
+#contacts{
+    margin-top: 100px;
+    width: 100%;
+}
+#contacts h2{
+    color: #9481BC;
+    margin-left: 50px;
+}
+#contacts .contact-us form input{
+    display: flex;
+    margin: 70px;
+    margin-left: 100px;
+    width: 30%;
+}
+#contacts .contact-us form .message input{
+    height: 100px;
+}
+#contacts .contact-us .send-now{
+    margin-bottom: 50px;
+    margin-left: 80px;
+    border: 2px solid #9481BC;
+    background-color: #9481BC;
+    border-radius: 20px;
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+}
+#contacts .contact-us form .send-now button{
+    border: none;
+    background-color: #9481BC;
+}

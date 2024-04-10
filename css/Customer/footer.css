@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Staatliches&display=swap');
+footer{
+	background-color: #A78454;
+	color: black;
+	padding: 15px 0;
+}
+footer .containers .co-2 .img-box{
+	width:380px;
+	height: auto;
+}
+footer .containers .rows{
+	display: flex;
+	justify-content: space-evenly ;
+}
+footer .containers .hide,
+footer .containers .hides{
+	display: none;
+}
+footer .containers .co-2{
+	padding-top: 2em;
+}
+footer .containers .co ul{
+	text-align: justify;
+	list-style: none;
+}
+footer .containers .co ul li:first-child{
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+footer .containers .co ul li a{
+	text-decoration: none;
+	color: black;
+}
+footer .containers .co ul li{
+	font-family: 'Roboto', sans-serif;
+	transition: 0.5s ease;
+	cursor: pointer;
+	padding-bottom: 5px;
+}
+footer .containers .co ul li:hover {
+	list-style-type: disc;
+
+}
+footer .containers .co ul li:first-child:hover{
+	list-style-type: none;
+	margin-left: 0;
+}
+.down{
+	background-color: #222222;
+	padding:0.5em 0;
+	text-align: center;
+}
+.down a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+.down a:hover{
+	text-decoration: underline;
+	transition: 0.5s;
+}
+
+@media(max-width: 881px)
+{
+	footer .containers .show{
+		display: none;
+	}
+	footer .containers .hide{
+		display: flex;
+		justify-content: space-around;
+	}
+	footer .containers .row-img
+	{
+		text-align: center;
+		padding-bottom: 1.5em;
+	}
+	footer .containers .row-img .img-box{
+		width:320px;
+		height: auto;
+		margin: 0 auto;
+	}
+	footer .containers .hides{
+		display: block;
+	}
+	footer .containers .row-img
+	{
+		text-align: center;
+		padding-bottom: 1.5em;
+	}
+	footer .containers .row-img .img-box{
+		
+		width:300px;
+		height: auto;
+		margin: 0 auto;
+		display: block;
+	}
+	footer .containers .row-img p{
+		max-width: 363px ;
+		margin: 0 auto;
+		display: block;
+	}
+
+
+}
+@media(max-width: 363px)
+{
+	footer .containers .hide{
+		display: block;
+		justify-content: space-around;
+	}
+	footer .containers .hide .co ul{
+		text-align: center;
+	}
+	footer .containers .row-img
+	{
+		text-align: center;
+		padding-bottom: 1.5em;
+	}
+	footer .containers .row-img .img-box{
+		max-width:300px;
+		height: auto;
+		margin: 0 auto;
+	}
+	footer .containers .row-img p{
+		max-width:300px;
+		margin: 0 auto;
+	}
+
+}

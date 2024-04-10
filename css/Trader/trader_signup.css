@@ -1,0 +1,198 @@
+/*custom font*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+/*basic reset*/
+* {margin: 0; padding: 0;}
+
+html {
+	height: 100%;
+	
+}
+
+body {
+	font-family: montserrat, arial, verdana;
+	background-color: #fafafa;
+}
+/*form styles*/
+#msform {
+	max-width: 80%;
+	margin: 50px auto;
+	text-align: center;
+}
+
+#msform fieldset {
+	background: white;
+	border: 0 none;
+	border-radius: 3px;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+	padding: 20px 30px;
+	box-sizing: border-box;
+	max-width: 80%;
+	margin: 0 10%;
+	
+}
+
+#msform fieldset .first-singup-title{
+	text-align: center;
+}
+#msform fieldset .first-singup-title h2{
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #2C3E50;
+	margin-bottom: 10px;
+}
+
+#msform fieldset .f_l_name{
+	background-color: none;
+	display: flex;
+}
+#msform fieldset .f_l_name .fl_name{
+	flex: 1;
+	margin: 12px 12px
+}
+
+/*inputs*/
+#msform input, #msform textarea,  #msform select{
+	padding: 15px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: montserrat;
+	color: #2C3E50;
+	font-size: 13px;
+}
+#msform .holderup{
+	padding: 0 12px;
+	margin-top:11px;
+}
+#msform fieldset .gType{
+	display: flex;
+}
+#msform fieldset .gType .firstup{
+	flex: 1;
+}
+#msform fieldset .gType .upupup{
+	margin-top: 12px;
+}
+#msform fieldset .gType .firstup input[type="radio"]
+{
+	width: 10%;
+}
+
+#msform input:hover, #msform textarea:hover,#msform select:hover
+{
+	background-color: #f5f5f5;
+}
+
+.fullfill-link{
+	padding-top:21px;
+	/* width: 150px; */
+}
+#msform .action-button {
+	text-decoration: none;
+	width: 100px;
+	background: #2b2b2b;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 1px;
+	cursor: pointer;
+	padding: 10px 15px;
+	margin: 10px 5px;
+	transition:0.3s ease;
+	font-size: 13px;
+}
+
+
+
+#msform .action-button:hover, #msform .action-button:focus {
+	box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+	background-color: white;
+	color:black;
+}
+/*headings*/
+
+.fs-subtitle {
+	font-weight: normal;
+	font-size: 13px;
+	color: #666;
+	margin-bottom: 20px;
+}
+/*progressbar*/
+#progressbar {
+	margin-bottom: 30px;
+	overflow: hidden;
+	/*CSS counters to number the steps*/
+	counter-reset: step;
+}
+#progressbar li {
+	list-style-type: none;
+	color: rgb(0, 0, 0);
+	text-transform: uppercase;
+	font-size: 9px;
+	width: 33.33%;
+	float: left;
+	position: relative;
+}
+#progressbar li:before {
+	content: counter(step);
+	counter-increment: step;
+	width: 20px;
+	line-height: 20px;
+	display: block;
+	font-size: 10px;
+	color: rgb(0, 0, 0);
+	background: #27AE60;
+	border-radius: 3px;
+	margin: 0 auto 5px auto;
+}
+/*progressbar connectors*/
+#progressbar li:after {
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: #27AE60;
+	position: absolute;
+	left: -50%;
+	top: 9px;
+	z-index: -1; 
+}
+#progressbar li:first-child:after {
+	content: none; 
+}
+#progressbar li.current:before{
+	background: #D4EDDA;
+	color: #155724;
+}
+
+
+
+@media(max-width:926px)
+{
+	#msform fieldset .f_l_name{
+		flex-direction: column;
+	}
+	#msform fieldset .gType{
+		flex-direction: column;
+	}
+	#msform fieldset .gType .firstup{
+		margin-top: 34px;
+	}
+}
+
+@media(max-width:542px)
+{
+	#msform {
+		max-width: 100%;
+	}
+	#msform fieldset {
+		width: 95%;
+		margin: 0 auto;
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+}
+
+

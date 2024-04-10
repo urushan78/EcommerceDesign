@@ -1,0 +1,41 @@
+/*--to use this font write "font-family: 'IBM Plex Sans', sans-serif;"--*/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;300;400;500;700&display=swap');
+
+/*--------------OrderDetails Div-------------------*/
+main{
+    overflow-y:hidden ;
+}
+#orderDetails
+{
+    margin-top: 76px; /*-------Don't decrease the margin-top or else it will go behind the nav section, you can ofcourse increase it----------*/
+    margin-left: 250px;
+}
+
+
+#orderDetails .main
+{
+    padding: 0 12px;
+}
+
+#orderDetails .main h1{
+    padding: 0.7em 0;
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+/*---------------When the width of the screen is 600px the margin-left property should reduce to 200px------------------*/
+@media(max-width:600px)
+{
+    #orderDetails{
+        margin-left: 200px;
+    }
+    
+    
+}
+
+/*---------------When the width of the screen is 600px the margin-left property should reduce to 150px------------------*/
+@media(max-width:500px)
+{
+    #orderDetails{
+        margin-left: 150px;
+    }
+}

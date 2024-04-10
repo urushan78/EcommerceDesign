@@ -1,0 +1,20 @@
+#msform .fullfill-link a{
+	font-size:13px !important;
+    
+}
+
+#msform .dispose{
+    display: none;
+}
+
+@media(max-width:356px)
+{
+    #msform .secret{
+        display: none;
+    }
+    #msform .dispose{
+        display: block;
+    }
+
+   
+}

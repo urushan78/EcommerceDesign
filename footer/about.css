@@ -1,0 +1,14 @@
+h1{
+	text-align: center;
+	padding-top: 20px;
+	color: #9481BC;
+	font-weight: bold;
+}
+
+.content{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+p{
+	font-size: 20px;
+}
